@@ -3,3 +3,11 @@ html, body, #mainMap {
       margin: 0;
       height: 100%;
     }
+
+#search {
+	display: block;
+	position: absolute;
+	z-index:2;
+	top: 20px;
+	right: 20px;
+}

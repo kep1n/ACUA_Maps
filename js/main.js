@@ -119,7 +119,7 @@ var map;
 
 		
 		//Adds the FeatureLayer of myContent in AGOL.
-		var vertidosAut = new FeatureLayer("http://services6.arcgis.com/2ELH198D4qlt3VYt/arcgis/rest/services/Censo_Autorizados/FeatureServer/0",
+		var vertidosAut = new FeatureLayer("https://services6.arcgis.com/2ELH198D4qlt3VYt/arcgis/rest/services/Censo_Autorizados/FeatureServer/0",
 		{
 			mode: FeatureLayer.MODE_ONDEMAND,
 			infoTemplate: popupTemplate,
